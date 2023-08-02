@@ -1,0 +1,14 @@
+p{
+    border: 1px solid black;
+    width: 250px;
+    background-color: aqua;
+    transition: 1s;
+    height: 250px;
+}
+p:hover{
+    /* transform: translate(250px, 250px); */
+    /* transform: rotate(25deg); */
+    /* transform: scalex(1.1); */
+    /* transform: skew(180deg); */
+    transform:rotate(30deg);
+}

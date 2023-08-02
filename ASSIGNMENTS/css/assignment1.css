@@ -1,0 +1,30 @@
+nav{
+border: 1px solid black;
+line-height: 90px;
+word-spacing: 200px;
+text-align: center;
+background-color: aqua;
+}
+a{
+    text-decoration: none;  
+}
+p{
+    color: brown;
+    text-align: center;
+    word-spacing: 50px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px black;
+    line-height: 50px;
+    font-size: 20px;
+    background-image: url(https://cdn.pixabay.com/photo/2022/06/30/13/32/family-7293705_1280.png),url(https://cdn.pixabay.com/photo/2022/06/30/13/32/family-7293705_1280.png) ;
+    background-size: 250px , 250px;
+    background-repeat: no-repeat;
+    background-position: top right, left bottom;
+   
+}
+
+button{
+    position: absolute;
+    left: 50%;
+}
+

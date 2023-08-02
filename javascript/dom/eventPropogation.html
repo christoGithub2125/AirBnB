@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #grandParent{
+            border: 1px solid black;
+            height: 500px;
+            width : 500px;
+            padding: 15px;
+
+        }
+        #parent{
+            border: 1px solid black;
+            height: 400px;
+            width : 400px;
+            padding: 15px;
+
+        }
+        #child{
+            border: 1px solid black;
+            height: 300px;
+            width : 300px;
+            padding: 15px;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="grandParent">gp
+        <div id="parent">parent
+            <div id="child">child
+                <input type="checkbox" id="cheak">
+            </div>
+        </div>
+    </div>
+    <p id="result">  result</p>
+    <script src="./eventPropogation.js"></script>
+</body>
+</html>

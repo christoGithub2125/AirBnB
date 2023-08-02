@@ -1,0 +1,15 @@
+.img{
+        
+    height: 200px;
+    width: 200px;
+    background-image: url(https://cdn.pixabay.com/photo/2023/06/13/11/35/crab-8060744_1280.jpg);
+    background-size: 150% 100%;
+    background-repeat: no-repeat;
+    background-position: -50px;
+}
+#image{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}

@@ -1,0 +1,36 @@
+/*  section{
+    border: 1px solid black;
+    /* padding-left: 25px;
+    padding-right:25px;
+    padding-bottom: 25px;
+    padding-top: 25px; 
+    padding: 100px;
+    text-align: left;
+    margin:40px 50px 100px 50px;
+} */
+    
+   
+/* p{
+    border: 1px solid black;
+}    */ 
+
+div{
+    border: 1px solid black;
+}
+#div1{
+    margin: 50px;
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+p{
+    border: 7px solid black;
+    margin: 50px;
+    border-color: rgb(38, 65, 56);
+    border-style: double;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-style: none;
+    border-bottom-color: blueviolet;
+    border-right-color: rgb(2, 255, 171);
+    
+}

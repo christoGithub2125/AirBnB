@@ -1,0 +1,60 @@
+p{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    animation-name: para;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: ease-in-out;
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate-reverse; */
+
+}
+
+@keyframes para{
+    /* from{
+        background-color: black;
+        color: white;
+    }
+    to{
+        background-color: white;
+        color: black;
+    } */
+
+    0%{
+        background-color: aquamarine;
+        left: 0px;
+        top: 0px;
+        transform: rotate(0deg);
+    }
+    25%{
+        background-color: rgb(182, 143, 218);
+        left: 200px;
+        top: 0px;
+       
+        
+        
+    }
+    50%{
+        background-color: rgb(255, 112, 112);
+        top:200px;
+        left: 200px;
+        transform: rotate(360deg);
+        
+    }
+    75%{
+        background-color: rgb(101, 170, 118);
+        top: 200px;
+        left: 0px;
+       
+    }
+       
+    100%{
+        background-color: aquamarine;
+        top: 0px;
+        left: 0px;
+        transform: rotate(0deg);
+
+    }
+}  

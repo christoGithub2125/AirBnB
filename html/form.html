@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        legend{
+            text-align: center;
+        }
+    </style>
+   
+    
+</head>
+<body>
+    <fieldset>
+        <legend><h3>Student Name</h3></legend>
+    <form autocomplete="on" method="post">
+        <label for="firname">First name :</label>
+        <input type="text" id="firname" name="user-first-name" placeholder="Enter first name" value="kiran" readonly>
+        <br>
+        <br>
+        <label for="secondname">Last name :</label>
+        <input id="secondname" type="text" placeholder="Input last name">
+        <br>
+        <br>
+        <label for="age">Age :</label>
+        <input type="number" id="age" placeholder="Enter your age" step="5">
+        <br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="gender" name="gender" value="Male">Male
+        <input type="radio" id="gender" name="gender" value="Female">Female
+        <input type="radio" id="gender" name="gender" value="Others">Others
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your Email">
+        <br>
+        <br><label for="qual">Qualification</label>
+        <input type="checkbox" id="qual" name="qual" value="msc" > Msc          
+        <input type="checkbox" id="qual" name="qual" value="Bse"> Bse
+        <input type="checkbox" id="qual" name="qual" value="Others">Others
+        <br><br>
+        <label for="course">Choose Course</label>
+        <select name="course" id="course" >
+            <option value="null">-</option>
+            <option value="html">html</option>
+            <option value="css">css</option>
+            <option value="javascript">javascript</option>
+        </select>
+        <br><br>
+        <label for="mobile_number" >Mobile Number:</label>
+        <input id="mobile_number"  type="tel" placeholder="Enter your number" pattern="[0-9] {10}" > 
+        <br><br>
+        <label for="address">Address:</label>
+        <br>
+        <textarea name="" id="address" cols="30" rows="2" placeholder="Enter your address"></textarea>
+        <br>
+        <br>
+        <label for="resume_file">Upload your resume here :</label>
+        <br>
+        <input type="file" name="resume" id="resume_file">
+        <br><br>
+        <br>
+        
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+</fieldset>
+</body>
+</html>

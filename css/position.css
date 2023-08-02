@@ -1,0 +1,41 @@
+/* p{
+    border: 1px solid black;
+    position: static;
+    left: 250px;
+} */
+
+#grandparent{
+    border: 1px solid black;
+    padding: 35px;
+    height: 1650px;
+}
+#parent{
+    border: 1px solid black;
+}
+#parent>p{
+    border: 1px solid black;
+    height: 240px;
+    width: 240px;
+}
+#parent>p:first-child{
+    background-color: red;
+    color: white;
+    position: absolute;
+    left: 60px;
+
+    
+    
+    /* position: relative;
+    left: 260px; */
+}
+#parent>p:nth-child(2){
+    background-color: blue;
+    color: white;
+    position: relative;
+    left: 10px;
+    
+    /* position: relative;
+    left: 10px;
+    bottom: 257px;
+    right: 50px; */
+}

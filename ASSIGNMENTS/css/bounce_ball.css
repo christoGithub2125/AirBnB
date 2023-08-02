@@ -1,0 +1,49 @@
+footer{
+    border: 1px solid rgb(66, 0, 128);
+    color: aliceblue;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(66, 0, 128);
+    line-height: 40px;
+    width: 600px;
+    position: absolute;
+    top: 93.5vh;
+    left: 350px;
+}
+
+#ball{
+    background-image: url(https://i.pinimg.com/564x/02/9c/8b/029c8b0d33679d14f1844a64d25fc92d.jpg);
+    height: 240px;
+    width: 240px;
+    border-radius: 100%;
+    background-size: cover;
+    position: absolute;
+    left: 524px;
+    top: 50px;
+    animation-name: ball;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+   
+
+
+
+}
+@keyframes ball {
+  0%{
+      top:50px ;
+      transform: rotate(0deg);
+  }
+
+  50%{
+    TOP: 420px;
+    transform: rotate(360deg);
+  }
+  100%{
+    transform: rotate(720deg);
+    top: 50px;
+  }
+   
+ 
+
+}

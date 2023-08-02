@@ -1,0 +1,36 @@
+/* div p{
+    background-color: rgb(213, 214, 130);
+} */
+
+/* div > p{
+    background-color: rgb(213, 214, 130);
+} */
+
+/* p + p{
+    background-color: aquamarine;
+} */
+/* div ~ p{
+    background-color: aqua;
+} */
+
+/* p ~ p{
+    background-color: aqua;
+} */
+/* div {
+    background-color: aqua;
+} */
+/* div > section{
+    background-color: aqua;
+} */
+/* div > section >article{
+background-color: aqua
+} */
+/* div > section > article > p {
+background-color: aqua;
+} */
+/* div > section > article > p > i{
+    background-color: aqua;
+    } */
+    div > section > article > p > i >del{
+        background-color: aqua; 
+    }

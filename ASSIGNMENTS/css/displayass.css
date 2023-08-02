@@ -1,0 +1,128 @@
+.line::before{
+    content: "";
+    border: 1px solid rgb(187, 187, 187);
+    display: inline-block;
+    width: 400px;
+    position: absolute;
+    top: 40px;
+    right: 750px;
+}
+.line::after{
+    content: "";
+    border: 1px solid rgb(187, 187, 187);
+    display: inline-block;
+    width: 400px;
+    position: absolute;
+    top: 40px;
+    left:750px ;
+}
+.line{
+    text-transform: capitalize;
+}
+#box1{
+    
+    width: 500px;
+    height: 570px;
+    background-image: url(../../img/pic08\ \(1\).jpg);
+    background-size: 100% 270px;
+    background-repeat: no-repeat;
+    background-color: white;
+
+
+}
+#box2{
+    
+    width: 500px;
+    height: 570px;
+    background-image: url(../../img/pic09.jpg);
+    background-size: 100% 270px;
+    background-repeat: no-repeat;
+    background-color: white;
+
+
+}
+
+#display{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    
+}
+/* .image{
+   
+    background-image: url(https://html5up.net/uploads/demos/dopetrope/images/pic06.jpg);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: top;   
+} */
+.content{
+position: absolute;
+top: 300px;
+width: 440px;
+padding: 30px;
+padding-right: 30px;
+height: 270px;
+background-color: white;
+
+}
+.button{
+ width:200px ;
+ position: relative;
+ right: 10px;
+ top: 500px;
+ height: 45px;
+ border-radius: 5px;
+ color: white;
+ font-size: 17px;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+.disbutton{
+    display: flex;
+    gap: 20px;
+    justify-content: center; 
+    flex-wrap:nowrap;  
+}
+#button1{
+    background-color: #d52349;
+    border: 1px solid #d52349;
+    color: white;
+    
+}
+#button2{
+    background-color: #252122;
+    border: 1px solid #252122;
+}
+body{
+    background-color: #F7F7F7;
+}
+*{
+    font-style: normal;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+   
+}
+.para_color{
+    color:#5d5d5d; 
+    font-size: 15px;
+    word-spacing: 2px;
+    position: relative;
+    top: -20px;
+}
+.fa-comment{
+    position: relative;
+    right: 5px;
+    top: 1px;
+}
+.fa-file-lines{
+    position: relative;
+    right: 5px;
+    top: 1px;
+}
+/* .bgcolor{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+} */
+span{
+    font-style: italic;
+}

@@ -1,0 +1,45 @@
+p::first-letter{
+    color: rgb(4, 58, 58);
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+P::first-line{
+    color: blueviolet;
+}
+p::selection{
+    background-color: aqua;   
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(4, 58, 58);
+}
+h1::after{
+    content:"" ;
+    border: 1px solid rgb(163, 162, 162);
+    position: absolute;
+    width: 150px;
+    top: 37px;
+    right: 450px;
+    
+
+        
+    
+    
+}
+h1::before{
+    content:"" ;
+    border: 1px solid rgb(163, 162, 162);
+    position: absolute;
+    width: 150px;
+    top: 37px;
+    left: 450px;
+    
+    
+    color: rgb(161, 161, 161);
+  
+}
+ul>li::marker{
+    color: rgb(0, 173, 173);
+    font-size: xx-large;
+}

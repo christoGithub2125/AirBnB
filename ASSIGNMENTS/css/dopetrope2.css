@@ -1,0 +1,73 @@
+#grid{
+    
+    min-height: 100vh;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 336.5px 336.5px 336.5px;
+    grid-template-rows: 512.9px 512.9px;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+.cells{ 
+    background-size: 100% 234.8px;
+   background-repeat: no-repeat; 
+   background-color: white;
+}   
+
+#cell1{
+   background-image: url(../../img/pic02.jpg);
+}
+#cell2{
+    background-image: url(../../img/pic03.jpg);
+ }
+ #cell3{
+    background-image: url(../../img/pic04.jpg);
+ }
+ #cell4{
+    background-image: url(../../img/pic05.jpg);
+ }
+ #cell5{
+    background-image: url(../../img/pic06.jpg);
+ }
+ #cell6{
+    background-image: url(../../img/pic07.jpg);
+ }
+
+ .content{
+    color: rgb(117, 117, 117);
+    position: relative;
+    top: 253px;
+    padding: 10px;
+    font-size: 13px;
+    line-height: 25px;
+   
+ }
+
+
+ h1{
+    color: black;
+ }
+
+ button{
+    position: relative;
+    top: 280px;
+    left: 9px;
+    border: 1px solid black;
+    height: 50px;
+    width: 161px;
+    padding: 11px 26px;
+    border-radius: 4px;
+    background-color: #252122;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+ }
+ 
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #F7F7F7;
+}
