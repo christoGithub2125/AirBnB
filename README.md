@@ -1,2 +1,2 @@
 # AirBnB
-web application AirBnB . note! this is not a responsive website
+this repository contains every project and learned assignment.
